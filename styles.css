@@ -1,0 +1,119 @@
+header {
+  display: flex;
+  padding: 60px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  margin: 55px;
+}
+
+header > img {
+  margin-left: 8%;
+  width: 140px;
+  height: 50px;
+}
+header > nav {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  list-style: none;
+  background-color: rgb(255, 255, 255);
+  margin-left: 40%;
+  padding-right: 100px;
+}
+a {
+  color: rgb(31, 30, 30);
+  font-size: larger;
+  font-weight: 500;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(230, 220, 214);
+  border-radius: 10px;
+  padding: 10px;
+}
+a:hover {
+  color: rgb(0, 0, 0);
+  font-weight: 550;
+  background-color: rgb(210, 210, 218);
+}
+
+/* <!--Hero: Primer impacto visual -->
+    <main>
+      <section class="hero">
+        <div>
+          <h1>Virtual healthcare for you</h1>
+          <p>
+            Trafalgar provides progressive, and affordable healthcare,
+            accessible on mobile and online for everyone
+          </p>
+          <div>
+            <button>Consult today</button>
+          </div>
+
+
+        </div>
+        <img src="/assets/hero.png" alt="hero" />
+      </section>
+    </main> */
+
+.hero {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+}
+.hero > div {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  width: 20%;
+  flex-direction: column;
+  margin-left: 240px;
+  padding: 10px;
+}
+.hero > div > h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: xxx-large;
+  background-color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+.hero > div > p {
+  background-color: rgb(255, 255, 255);
+  font-size: 19px;
+  font-family: 'Franklin Gothic small', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(82, 82, 82);
+  margin-block-end: 30px;
+  margin-block-start: 10px;
+}
+.img-hero {
+  display: flex;
+  justify-content: flex-end;
+  width: 600px;
+  padding: 50px;
+  background-color: rgb(255, 255, 255);
+}
+button {
+  background-color: rgb(77, 137, 228);
+  border-radius: 40px;
+  border-style: none;
+  color: white;
+  padding: 13px;
+  width: 150px;
+  height: 30px;
+  box-sizing: content-box;
+  p {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(77, 137, 228);
+    font-size: medium;
+    margin: 5px;
+  }
+}
