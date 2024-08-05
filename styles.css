@@ -13,7 +13,52 @@ header {
   align-items: center;
   justify-content: space-between;
   margin: 55px;
-  background-color: #d9e7f1;
+  background: rgba(183, 222, 237, 1);
+  background: -moz-linear-gradient(
+    left,
+    rgba(183, 222, 237, 1) 0%,
+    rgba(33, 180, 226, 1) 23%,
+    rgba(113, 206, 239, 1) 56%,
+    rgba(183, 222, 237, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, rgba(183, 222, 237, 1)),
+    color-stop(23%, rgba(33, 180, 226, 1)),
+    color-stop(56%, rgba(113, 206, 239, 1)),
+    color-stop(100%, rgba(183, 222, 237, 1))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(183, 222, 237, 1) 0%,
+    rgba(33, 180, 226, 1) 23%,
+    rgba(113, 206, 239, 1) 56%,
+    rgba(183, 222, 237, 1) 100%
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(183, 222, 237, 1) 0%,
+    rgba(33, 180, 226, 1) 23%,
+    rgba(113, 206, 239, 1) 56%,
+    rgba(183, 222, 237, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(183, 222, 237, 1) 0%,
+    rgba(33, 180, 226, 1) 23%,
+    rgba(113, 206, 239, 1) 56%,
+    rgba(183, 222, 237, 1) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(183, 222, 237, 1) 0%,
+    rgba(33, 180, 226, 1) 23%,
+    rgba(113, 206, 239, 1) 56%,
+    rgba(183, 222, 237, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed', GradientType=1 );
+  border-radius: 10px;
 }
 
 header > img {
@@ -33,7 +78,7 @@ header > nav {
   justify-content: space-around;
   width: 100%;
   list-style: none;
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
   margin-left: 30%;
   padding-right: 100px;
 }
@@ -46,6 +91,9 @@ a {
   border-radius: 10px;
   padding: 10px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 a:hover {
   color: #fffffe;
@@ -63,6 +111,68 @@ a:hover {
 .hero > div {
   display: flex;
   background-color: #3da9fc;
+  background: -moz-linear-gradient(
+    left,
+    rgb(4, 137, 177) 0%,
+    rgba(4, 170, 220, 1) 21%,
+    rgba(33, 180, 226, 1) 37%,
+    rgba(113, 206, 239, 1) 56%,
+    rgba(113, 206, 239, 1) 67%,
+    rgba(183, 222, 237, 1) 89%,
+    rgba(183, 222, 237, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, rgba(4, 167, 217, 1)),
+    color-stop(21%, rgba(4, 170, 220, 1)),
+    color-stop(37%, rgba(33, 180, 226, 1)),
+    color-stop(56%, rgba(113, 206, 239, 1)),
+    color-stop(67%, rgba(113, 206, 239, 1)),
+    color-stop(89%, rgba(183, 222, 237, 1)),
+    color-stop(100%, rgba(183, 222, 237, 1))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(4, 167, 217, 1) 0%,
+    rgba(4, 170, 220, 1) 21%,
+    rgba(33, 180, 226, 1) 37%,
+    rgba(113, 206, 239, 1) 56%,
+    rgba(113, 206, 239, 1) 67%,
+    rgba(183, 222, 237, 1) 89%,
+    rgba(183, 222, 237, 1) 100%
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(4, 167, 217, 1) 0%,
+    rgba(4, 170, 220, 1) 21%,
+    rgba(33, 180, 226, 1) 37%,
+    rgba(113, 206, 239, 1) 56%,
+    rgba(113, 206, 239, 1) 67%,
+    rgba(183, 222, 237, 1) 89%,
+    rgba(183, 222, 237, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(4, 167, 217, 1) 0%,
+    rgba(4, 170, 220, 1) 21%,
+    rgba(33, 180, 226, 1) 37%,
+    rgba(113, 206, 239, 1) 56%,
+    rgba(113, 206, 239, 1) 67%,
+    rgba(183, 222, 237, 1) 89%,
+    rgba(183, 222, 237, 1) 100%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(4, 167, 217, 1) 0%,
+    rgba(4, 170, 220, 1) 21%,
+    rgba(33, 180, 226, 1) 37%,
+    rgba(113, 206, 239, 1) 56%,
+    rgba(113, 206, 239, 1) 67%,
+    rgba(183, 222, 237, 1) 89%,
+    rgba(183, 222, 237, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04a7d9', endColorstr='#b7deed', GradientType=1 );
   width: 30%;
   margin-left: 20px;
   flex-direction: column;
@@ -78,9 +188,9 @@ a:hover {
   background-color: rgb(255, 255, 255);
   font-weight: 700;
   color: #094067;
-  -webkit-box-shadow: 7px 7px 4px 0px rgba(0, 0, 0, 1);
-  -moz-box-shadow: 7px 7px 4px 0px rgba(0, 0, 0, 1);
-  box-shadow: 7px 7px 4px 0px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.75);
   padding-left: 20px;
   border-top-left-radius: 20px;
 }
@@ -92,9 +202,9 @@ a:hover {
   margin-block-end: 30px;
   margin-block-start: 10px;
   font-weight: 400;
-  -webkit-box-shadow: 7px 7px 4px 0px rgba(0, 0, 0, 1);
-  -moz-box-shadow: 7px 7px 4px 0px rgba(0, 0, 0, 1);
-  box-shadow: 7px 7px 4px 0px rgba(0, 0, 0, 1);
+  -webkit-box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.75);
 }
 .img-hero {
   display: flex;
@@ -175,11 +285,12 @@ Tertiary
   text-align: center;
 }
 
-.tarjetas {
+/* .tarjetas {
   display: flex;
   margin: 300px;
   margin-top: 100px;
   flex-wrap: wrap;
+  gap: 100px;
 }
 .cartas {
   background-color: #c1c4c7;
@@ -190,6 +301,11 @@ Tertiary
   justify-content: center;
   align-items: flex-start;
   width: min-content;
+  gap: 15px;
+  } */
+
+.fondo_tarjetas {
+  background-color: #fffffe;
 }
 
 .cartas > img {
@@ -198,4 +314,42 @@ Tertiary
 }
 .cartas > p {
   display: flex;
+  width: 300px;
+}
+
+.tarjetas {
+  background-color: #fffffe;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-left: 14cm;
+  margin-top: 2cm;
+}
+.cartas {
+  background-color: #fffffe;
+  padding: 30px;
+  display: flex;
+  gap: 3px;
+  flex-direction: column;
+  border-radius: 30px;
+  -webkit-box-shadow: 10px 11px 20px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 11px 20px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 11px 20px 1px rgba(0, 0, 0, 0.75);
+}
+/* Vector */
+
+/* position: absolute;
+left: 26.18%;
+right: -26.18%;
+top: 0%;
+bottom: 0%;
+
+background: linear-gradient(175.68deg, #f3f7ff -10.48%, #deeefe 92.66%);
+transform: rotate(21.46deg); */
+.button-tarjetas {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.3cm;
+  margin-left: 8.5cm;
 }
