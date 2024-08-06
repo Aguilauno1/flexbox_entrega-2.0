@@ -233,31 +233,9 @@ button {
     font-weight: 500;
   }
 }
-
-/* Background
-Elements
-Background
-#fffffe
-Headline
-#094067
-Paragraph
-#5f6c7b
-Button
-#3da9fc
-Button text
-#fffffe
-
-Illustration
-Stroke
-#094067
-Main
-#fffffe
-Highlight
-#3da9fc
-Secondary
-#90b4ce
-Tertiary
-#ef4565 */
+.boton :hover {
+  font-weight: 550;
+}
 
 .services {
   display: flex;
@@ -302,7 +280,7 @@ Tertiary
   align-items: flex-start;
   width: min-content;
   gap: 15px;
-  } */
+} */
 
 .fondo_tarjetas {
   background-color: #fffffe;
@@ -337,7 +315,6 @@ Tertiary
   -moz-box-shadow: 10px 11px 20px 1px rgba(0, 0, 0, 0.75);
   box-shadow: 10px 11px 20px 1px rgba(0, 0, 0, 0.75);
 }
-/* Vector */
 
 /* position: absolute;
 left: 26.18%;
@@ -353,3 +330,125 @@ transform: rotate(21.46deg); */
   margin-top: 1.3cm;
   margin-left: 8.5cm;
 }
+.footer {
+  background: rgba(183, 222, 237, 1);
+  background: -moz-linear-gradient(
+    top,
+    rgba(183, 222, 237, 1) 0%,
+    rgba(33, 180, 226, 1) 51%,
+    rgba(183, 222, 237, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    left bottom,
+    color-stop(0%, rgba(183, 222, 237, 1)),
+    color-stop(51%, rgba(33, 180, 226, 1)),
+    color-stop(100%, rgba(183, 222, 237, 1))
+  );
+  background: -webkit-linear-gradient(
+    top,
+    rgba(183, 222, 237, 1) 0%,
+    rgba(33, 180, 226, 1) 51%,
+    rgba(183, 222, 237, 1) 100%
+  );
+  background: -o-linear-gradient(
+    top,
+    rgba(183, 222, 237, 1) 0%,
+    rgba(33, 180, 226, 1) 51%,
+    rgba(183, 222, 237, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    top,
+    rgba(183, 222, 237, 1) 0%,
+    rgba(33, 180, 226, 1) 51%,
+    rgba(183, 222, 237, 1) 100%
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(183, 222, 237, 1) 0%,
+    rgba(33, 180, 226, 1) 51%,
+    rgba(183, 222, 237, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed', GradientType=0 );
+  margin-top: 3cm;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  gap: 3cm;
+  padding: 100px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+.caja1 {
+  /* background-color: #094067; */
+  display: flex;
+  flex-direction: column;
+  gap: 1cm;
+  padding: 10px;
+  padding: 60px;
+  justify-content: center;
+}
+.caja2 {
+  /* background-color: #3da9fc; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 60px;
+}
+.caja3 {
+  /* background-color: #90b4ce; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 60px;
+}
+.caja4 {
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  width: 10cm;
+  padding: 60px;
+  gap: 10px;
+}
+h2 {
+  color: #fffffe;
+  font-weight: 500;
+}
+/* FIXME: no funciona el hover. */
+/* .h22 :hover {
+  background-color: #3da9fc;
+} */
+.footer p,
+li {
+  color: #fffffe;
+  font-weight: 300;
+}
+li {
+  list-style: none;
+  font-weight: 300;
+}
+
+/* Background
+  Elements
+  Background
+  #fffffe
+  Headline
+  #094067
+  Paragraph
+  #5f6c7b
+  Button
+  #3da9fc
+  Button text
+  #fffffe
+  
+  Illustration
+  Stroke
+  #094067
+  Main
+  #
+  Highlight
+  #3da9fc
+  Secondary
+  #90b4ce
+  Tertiary
+  #ef4565 */
